@@ -1,0 +1,235 @@
+<!-- saved from url=(0039)file:///C:/Users/79814/Desktop/lab.html -->
+<html lang="ru"><head> 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato&family=Readex+Pro&display=swap" rel="stylesheet">
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>Одностраничный сайт</title>
+<style type="text/css">
+
+html{
+background: #f5f1fa;
+}
+* {
+  box-sizing:border-box;
+}
+
+html, body {
+margin:0;
+padding:0;
+}
+
+.mainpage{ 
+    width:900px;
+    height:1100px;
+    margin:auto;
+    margin-top: 5px;
+    background:rgb(255, 255, 255);
+    word-break: break-all;
+}
+
+.logo{
+    font-family: 'Trebuchet MS', sans-serif;
+    margin: 0 0 0 0px;
+    color: #6e46a0;
+    margin-right:5px;
+}
+
+.name1{
+    font-family: 'Readex Pro', sans-serif;
+    font-size: 28px;
+    color:#6e46a0;
+    margin-left: 28px;
+    margin-top: 26px;
+}
+
+
+img {
+    border: 1px solid #44187a;
+    margin: 32 0 0 32px;
+    float:left;
+}
+
+.cover {
+    height: 244px;
+    width: 244px;
+    object-fit:cover ;
+}
+
+
+
+.nav-list {
+  background: white;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  white-space: nowrap;
+  margin-top:0;
+  margin-bottom:0;
+}
+
+.nav-item {
+  list-style: none;
+  margin-right: 2rem;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color:#8a8a8a;
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: 17px;
+  white-space: nowrap;
+}
+
+.nav-item:first-child {
+  margin-right: auto;
+  margin-left: 2rem;
+}
+
+
+.nav-list input[type=text] {
+  color: rgb(114, 61, 145);
+  float: right;
+  border: none;
+  font-size: 17px;
+  border: 1px solid #b6b6b6;
+  font-family: 'Trebuchet MS', sans-serif;
+  height:20px;
+}
+.info{
+    float:left;
+    overflow-wrap: anywhere;
+    flex:wrap;
+}
+hr {
+   width: 570px;
+   height:0.05em;
+   border: 0 none;
+   margin-left: 27px;
+   background-color:rgb(0, 0, 0);
+}
+p.detail{
+    font-family: 'Lato', sans-serif;
+    margin-left: 27px;
+    font-size: 17px;
+    color:#646464;
+    word-break: break-all;
+}
+p.detail2{
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-size: 17px;
+    color:#ffffff;
+    vertical-align: middle;
+}
+p.detail3{
+    font-family: 'Lato', sans-serif;
+    font-size: 17px;
+    color:#000000;
+    margin: 10 0 0 40;
+    
+    padding-top: 10px;
+
+}
+
+span.name{
+    font-family: 'Lato', sans-serif;
+    margin-left: 30px;
+    font-size: 17px;
+    color:#292929;
+    word-break: break-all;
+}
+
+.buttons{
+    width: 244px;
+    height: 50px;
+    background:rgb(114, 61, 145);
+    float:left; 
+    clear:both;
+    margin:5 0 0 32;
+    display: flex;
+    justify-content: center;
+     align-items: center;
+}
+
+.blog{
+    padding: 28px;
+}
+.audiolist{
+    clear: both;
+    
+
+}
+@media screen and (max-width: 600px) {
+    .cover {
+    height: 121px;
+    width: 121px;
+    object-fit: cover;
+    }
+    .name1{
+        font-size: medium;
+    }
+    p.detail{
+        font-size: 11px;
+    }
+    span.name{
+        font-size: 11px;
+    }
+    hr{
+        width: 400px;
+    }
+    .buttons{
+        width: 121px;
+        height:19px;
+        margin:2 0 0 32;
+    }
+    p.detail2{
+        font-size: 11px;
+    }
+    p.detail3{
+       font-size: 11px;
+    }
+}
+</style>
+</head>
+<body>
+ <nav>
+    <ul class="nav-list">
+      <li class="nav-item">
+      <h1 class="logo">Bandsbook</h1>
+        </li>
+        <li class="nav-item">
+         <input type="text" placeholder="search bands, musicians..">
+      </li>
+      <li class="nav-item">
+        <a href="#">log in</a>
+      </li>
+    </ul>
+  </nav>
+<div class="mainpage">
+
+  <div class="img"><img class="cover" src="./lab_files/20200514005802_large_isejka.jpeg"></div>
+  <div class="info">
+  <h1 class="name1">BAND NAME</h1>
+  <hr>
+  <p class="detail">genre <span class="name">hyperpop</span></p>
+  <p class="detail">location <span class="name">saint-petersburg, russia</span></p>
+  <p class="detail">associated acts <span class="name">band name, band name, band name</span></p>
+  <p class="detail">info <span class="name">info info info info info</span></p>
+</div>
+<div class="buttons"> <p class="detail2">add to friends</p></div>
+<div class="buttons"><p class="detail2">message</p></div>
+<div class="audiolist">
+    <p class="detail3" >&#9658; Band Name - Song1</p>
+    <p class="detail3" >&#9658; Band Name - Song2</p>
+    <p class="detail3" >&#9658; Band Name - Song3</p>
+    <p class="detail3" >&#9658; Band Name - Song4</p>
+    <p class="detail3" >&#9658; Band Name - Song5</p>
+    <p class="detail3" >&#9658; Band Name - Song6</p>
+    </div>
+</div>
+</body></html>
